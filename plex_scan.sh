@@ -1,0 +1,1 @@
+sudo su -l plex -s /bin/bash -c "LD_LIBRARY_PATH=/usr/lib/plexmediaserver PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR='/var/lib/plexmediaserver/Library/Application Support' /usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan"
